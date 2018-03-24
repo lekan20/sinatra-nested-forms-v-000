@@ -9,9 +9,10 @@ module FormsLab
     end
 
     get '/new' do
-      # binding.pry
       erb :'pirates/new'
     end
+
+
 
   end
 end
